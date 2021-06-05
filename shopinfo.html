@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport"content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta name="description" content="Colorlib Templates" />
+    <meta name="author" content="Colorlib" />
+    <meta name="keywords" content="Colorlib Templates" />
+
+    <title>Register</title>
+
+    <link href="vendor/mdi-font/css/material-design-iconic-font.min.css"rel="stylesheet"media="all"/>
+    <link href="vendor/font-awesome-4.7/css/font-awesome.min.css" rel="stylesheet" media="all"/>
+    <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@500&display=swap" rel="stylesheet"/>
+    <link href="vendor/select2/select2.min.css" rel="stylesheet" media="all" />
+    <link href="vendor/datepicker/daterangepicker.css" rel="stylesheet"media="all"/>
+    <link href="reg.style.css" rel="stylesheet" media="all" />
+  </head>
+
+  <body>
+    <div class="page-wrapper bg-gra-02 p-t-130 p-b-100 font-poppins">
+      <div class="wrapper wrapper--w680">
+        <div class="card card-4">
+          <div class="card-body">
+            <h2 class="title">ข้อมูลร้าน</h2>
+            <form method="POST">
+              <div class="row row-space">
+                <div class="col-2">
+                  <div class="input-group">
+                    <label class="label">ชื่อ</label>
+                    <input class="input--style-4" type="text" name="first_name"/>
+                  </div>
+                </div>
+                <div class="col-2">
+                  <div class="input-group">
+                    <label class="label">นามสกุล</label>
+                    <input class="input--style-4" type="text" name="last_name"/>
+                  </div>
+                </div>
+                <div class="col-2">
+                  <div class="input-group">
+                    <label class="label">ชื่อร้านทำผม</label>
+                    <input class="input--style-4" type="text" name="last_name"/>
+                  </div>
+                </div>
+                <div class="col-2">
+                  <div class="input-group">
+                    <label class="label">เบอร์โทรศัพท์</label>
+                    <input class="input--style-4" type="text" name="phone" />
+                  </div>
+                </div>
+              </div>
+              <div class="row row-space">
+                <div class="col-2">
+                  <div class="input-group">
+                    <label class="label">รูปภาพร้าน</label>
+                    <div class="input-group-icon">
+                      <input type="file" class="input--style-4" id="exampleFormControlFile1">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-2">
+                  <div class="input-group">
+                    <label class="label">เวลาทำการ</label>
+                    <input type="time" class="form-control" />
+                  </div>
+                </div>
+              </div>
+              <div class="row row-space">
+                <div class="col-2">
+                  <div class="input-group">
+                    <label class="label">คำอธิบายร้าน</label>
+                    <textarea class="input--style-44" type="text" name="info" rows="3"/></textarea>
+                  </div>
+                  <div class="col-2">
+                    <div class="input-group">
+                      <label class="label">ที่อยู่ร้าน</label>
+                      <textarea class="input--style-44" type="text" name="info" rows="3"/></textarea>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="row row-space">
+                <div class="col-2">
+                  <div class="input-group">
+                    <label class="label">ละติจูด</label>
+                    <input class="input--style-4" type="number" name="latitude"/>
+                  </div>
+                </div>
+                <div class="col-2">
+                  <div class="input-group">
+                    <label class="label">ลองติจูด</label>
+                    <input class="input--style-4" type="number" name="longitude"/>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="input-group">
+                <label class="label">Subject</label>
+                <div class="rs-select2 js-select-simple select--no-search">
+                  <select name="subject">
+                    <option disabled="disabled" selected="selected">
+                      Choose option
+                    </option>
+                    <option>Subject 1</option>
+                    <option>Subject 2</option>
+                    <option>Subject 3</option>
+                  </select>
+                  <div class="select-dropdown"></div>
+                </div>
+              </div> -->
+              <div class="p-t-15">
+                <a href="shopindex.html" class="btn" role="button" aria-pressed="true">ยืนยัน</a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/select2/select2.min.js"></script>
+    <script src="vendor/datepicker/moment.min.js"></script>
+    <script src="vendor/datepicker/daterangepicker.js"></script>
+    <script src="js/global.js"></script>
+  </body>
+</html>
